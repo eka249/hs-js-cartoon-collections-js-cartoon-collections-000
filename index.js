@@ -47,5 +47,3 @@ function wordsWithB (words){
   }
   return x;
 }
-
-
