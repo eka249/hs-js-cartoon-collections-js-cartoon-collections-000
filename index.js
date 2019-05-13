@@ -32,10 +32,8 @@ function findTheCheese (foods) {
     for (var i=0; i<validcheese.length; i++){
       if (foods.indexOf(validcheese[i])> -1){
         return validcheese[i];
-        break;
-      }
-      else {
-        return "no cheese!";
       }
     }
+  return "no cheese!";
+    
 }
