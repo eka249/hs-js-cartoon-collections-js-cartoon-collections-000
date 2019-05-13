@@ -3,7 +3,7 @@ function dwarfRollCall(dwarves) {
   for (var i=0; i<dwarves.length; i++){
     text += ((i+1) + ". " + dwarves[i] + " ");
    }
-   return text.slice(0,-1)
+   return text
 }
 
 function summonCaptainPlanet(planeteerCalls){
